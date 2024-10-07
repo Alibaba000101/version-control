@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    margin: 10px;
+    min-height: 100%;
+    background-color: azure;
+}
+
+.header{
+    background-color: rebeccapurple;
+}
+
+.hpt {
+    margin: 10px;
+    text-align: center;
+    color: floralwhite;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+gc {
+margin: 24px;
+display: grid;
+gap: 16px;
+grid-template: repeat (6, 1fr) / 1fr 3fr;
+}
+
+gcc {
+    padding: 16px;
+    background-color: chocolate;
+    font-size: 2rem;
+}
+
+gce {
+    padding: 16PX;
+    background-color: bisque;
+}
