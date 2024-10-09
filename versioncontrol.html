@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./git.css" />
-    <title>version control</title>
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Version COntrol</title>
+    <link rel="stylesheet" href="./styles/versioncontrol.css">
+</head>
+<body>
     <header class="header">
-      <h1 class="hpt">version control</h1>
+        <h1 class="header__page-title">
+            Version Control
+        </h1>
     </header>
-    <main class="gc">
-      <div class="gcc">stockholm</div>
-      <div class="gce">stockholm</div>
+    <main class="git-commands">
+        <div class="git-commands__command">git init</div>
+        <div class="git-commands__effect">Creates a hidden git directory and enables Version Control on the project</div>
+
+        <div class="git-commands__command">git clone</div>
+        <div class="git-commands__effect">Copies the project from the supplied url from Github to your local machine</div>
+        
+        <div class="git-commands__command">git pull</div>
+        <div class="git-commands__effect">Updates your local repo to the same as the remote repo</div>
+
     </main>
-  </body>
+</body>
 </html>
